@@ -34,7 +34,7 @@ Namun, inspeksi lebih dalam terhadap seluruh modul controller, file `.htaccess`,
 - **Mekanisme Kerentanan**:
   Kunci rahasia API internal ditanam (*hardcoded*) langsung di kode klien JavaScript:
   ```js
-  config.headers["X-API-KEY"] = `mh_yadi_KlyUBJGp6amgAfxeYa22qQ8wddeonOOH`;
+  config.headers["X-API-KEY"] = `mh_yadi_xxx`;
   ```
   Karena kode Vite/Vue dikirimkan ke browser setiap pengguna, siapa pun dapat mengekstrak kunci ini dari hasil build JS dan langsung memanggil endpoint:
   - `GET /api/santri-extern` (dipetakan ke `SantriController::index` yang mengembalikan daftar santri beserta data pribadi orang tua, NIK, nomor telepon, alamat)
