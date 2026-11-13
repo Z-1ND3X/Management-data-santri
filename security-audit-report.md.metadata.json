@@ -1,0 +1,5 @@
+{
+  "summary":  "Laporan Audit Keamanan Komprehensif Tahap 2 (12 November 2026): Mencakup verifikasi perbaikan Tahap 1 serta temuan baru Critical/High/Medium (Hardcoded API Key di frontend, Arbitrary File Deletion, Unvalidated Upload di ModulAjar, Missing RBAC pada rute sensitif, Sanctum token revocation, dan override CORS di .htaccess).",
+  "updatedAt":  "2026-11-11T17:11:04.527899300Z",
+  "userFacing":  true
+}
